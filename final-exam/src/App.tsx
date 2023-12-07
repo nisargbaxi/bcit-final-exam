@@ -56,7 +56,12 @@ function App() {
                   ))
                 ) : (
                   <tr>
-                    <td colSpan={2}>No food items found</td>
+                    <td colSpan={2}>
+                      {" "}
+                      <div className="font-semibold text-lg text-left">
+                        No Food Item to display
+                      </div>
+                    </td>
                   </tr>
                 )}
               </tbody>
